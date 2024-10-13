@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSense - Monitoramento da Qualidade da Água</title>
+    <link rel="stylesheet" href="AquaSense.css">
+    <head>
+        <link rel="favicon-ico" type="image/favicon-ico" href="favicon.ico">
+        <link rel="favicon-16x16" sizes="16x16" href="favicon-16x16.png">
+        <link rel="favicon-32x32" sizes="32x32" href="favicon-32x32.png">
+        <title>AquaSense</title>
+    </head>
+    
+</head>
+<body>
+    <div class="min-h-screen bg-gradient-to-b from-blue-50 to-green-50">
+        <header class="bg-white shadow-sm">
+            <div class="container">
+                <h1 class="text-3xl font-bold text-blue-600">AquaSense</h1>
+                <nav>
+                    <ul>
+                        <li><a href="regioes.html" class="text-blue-600 hover:text-blue-800">Regiões</a></li>
+                        <li><a href="parametros.html" class="text-blue-600 hover:text-blue-800">Parâmetros</a></li>
+                        <li><a href="dados.html" class="text-blue-600 hover:text-blue-800">Dados</a></li>
+                        <li><a href="contato.html" class="text-blue-600 hover:text-blue-800">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="banner">
+            <div class="container">
+                <div class="banner-content">
+                    <h2>Monitorando a Qualidade da Água em Teresina</h2>
+                    <p>Preservando nossos rios e lagos para as futuras gerações</p>
+                </div>
+            </div>
+        </div>
+
+        <main class="container">
+            <section class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Monitoramento da Qualidade da Água</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Entenda a importância do monitoramento da qualidade da água e como isso afeta nossa vida e o meio ambiente.
+                </p>
+            </section>
+
+            <section class="grid-section mb-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i data-lucide="map-pin"></i>
+                            Regiões Monitoradas
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Explore as diferentes áreas que monitoramos e seus níveis de qualidade da água.</p>
+                        <button class="btn btn-outline" onclick="window.location.href='regioes.html';">Ver Regiões</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i data-lucide="droplet"></i>
+                            Parâmetros de Qualidade
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Aprenda sobre os diferentes parâmetros que usamos para avaliar a qualidade da água.</p>
+                        <button class="btn btn-outline" onclick="window.location.href='parametros.html';">Explorar Parâmetros</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i data-lucide="bar-chart-2"></i>
+                            Gráficos e Dados
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Visualize a evolução dos níveis de qualidade da água ao longo do tempo.</p>
+                        <button class="btn btn-outline" onclick="window.location.href='dados.html';">Ver Dados</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i data-lucide="mail"></i>
+                            Contato
+                        </h3>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-description">Entre em contato conosco para mais informações ou para reportar problemas.</p>
+                        <button class="btn btn-outline" onclick="window.location.href='contato.html';">Contatar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="image-carousel mb-12">
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="imagem1.jpg" alt="Rio Poti em Teresina" class="carousel-image">
+                        <p class="image-caption">Rio Poti: Um dos principais rios de Teresina</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="imagem2.jpg" alt="Rio Parnaíba em Teresina" class="carousel-image">
+                        <p class="image-caption">Rio Parnaíba: O maior rio da região</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="imagem3.jpg" alt="Lagoa do Norte em Teresina" class="carousel-image">
+                        <p class="image-caption">Lagoa do Norte: Importante área de lazer da cidade</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="imagem4.jpg" alt="Encontro das Águas em Teresina" class="carousel-image">
+                        <p class="image-caption">Encontro das Águas: Junção dos rios Poti e Parnaíba</p>
+                    </div>
+                </div>
+                <button class="carousel-button prev" aria-label="Imagem anterior">
+                    <i data-lucide="chevron-left"></i>
+                </button>
+                <button class="carousel-button next" aria-label="Próxima imagem">
+                    <i data-lucide="chevron-right"></i>
+                </button>
+            </section>
+        </main>
+
+        <footer class="bg-blue-600 text-white py-8">
+            <div class="container footer-content">
+                <div class="footer-section">
+                    <h4 class="text-xl font-bold mb-4">Sobre AquaSense</h4>
+                    <p>Dedicados ao monitoramento e conscientização sobre a qualidade da água em diversas regiões.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/cauaavilanova" class="instagram-button" target="_blank" rel="noopener noreferrer">
+                            <i data-lucide="instagram"></i> Instagram
+                        </a>
+                        <a href="https://github.com/CauaVilanova" class="github-button" target="_blank" rel="noopener noreferrer">
+                            <i data-lucide="github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm">
+                © 2024 AquaSense. Todos os direitos reservados.
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="AquaSense.js"></script>
+</body>
+</html>

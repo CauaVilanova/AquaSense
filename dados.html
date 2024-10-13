@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSense - Dados e Gráficos</title>
+    <link rel="stylesheet" href="AquaSense.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="AquaSense.html"><h1>AquaSense</h1></a>
+            <nav>
+                <ul>
+                    <li><a href="AquaSense.html">Início</a></li>
+                    <li><a href="regioes.html">Regiões</a></li>
+                    <li><a href="parametros.html">Parâmetros</a></li>
+                    <li><a href="dados.html">Dados</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Dados e Gráficos</h2>
+        <div class="chart-container">
+            <canvas id="waterQualityChart"></canvas>
+        </div>
+        <div id="data-table"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AquaSense. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dados.js"></script>
+</body>
+</html>

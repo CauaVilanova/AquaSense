@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSense - Regiões Monitoradas</title>
+    <link rel="stylesheet" href="AquaSense.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="AquaSense.html"><h1>AquaSense</h1></a>
+            <nav>
+                <ul>
+                    <li><a href="AquaSense.html">Início</a></li>
+                    <li><a href="regioes.html">Regiões</a></li>
+                    <li><a href="parametros.html">Parâmetros</a></li>
+                    <li><a href="dados.html">Dados</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Regiões Monitoradas em Teresina/PI</h2>
+        <div id="map" style="height: 400px;"></div>
+        <div id="region-list">
+            <h3>Lista de Regiões</h3>
+            <ul id="regions"></ul>
+        </div>
+    </main>    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AquaSense. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="regioes.js"></script>
+</body>
+</html>
